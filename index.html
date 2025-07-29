@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Desainer Grafis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    /* Custom fade-in animation with delay */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center animate__animated animate__fadeInDown">
+      <h1 class="text-2xl font-bold">NABILKULBET Design</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-blue-500">Tentang</a>
+        <a href="#portfolio" class="hover:text-blue-500">Karya</a>
+        <a href="#contact" class="hover:text-blue-500">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-gradient-to-r from-blue-300 to-indigo-400 text-white">
+    <h2 class="text-5xl font-bold mb-4 animate__animated animate__fadeInUp">Hai, saya Nabil</h2>
+    <p class="text-xl animate__animated animate__fadeInUp animate__delay-1s">Desainer grafis yang fokus pada visual branding dan digital art.</p>
+  </section>
+
+  <!-- Tentang -->
+  <section id="about" class="py-16 px-4 max-w-4xl mx-auto fade-in" style="animation-delay: 0.5s;">
+    <h3 class="text-3xl font-bold mb-6">Tentang Saya</h3>
+    <p class="text-gray-700 leading-relaxed text-lg">
+      Saya memiliki keahlian dalam Adobe Photoshop, Illustrator, dan Canva. Dengan pengalaman lebih dari 3 tahun, saya telah membantu banyak brand menyampaikan pesan mereka lewat visual yang kuat dan kreatif.
+    </p>
+  </section>
+
+  <!-- Portofolio -->
+  <section id="portfolio" class="bg-gray-100 py-16 px-4 fade-in" style="animation-delay: 1s;">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold mb-10 text-center">Karya Terbaik</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 shadow-md rounded hover:scale-105 transition-transform duration-300">
+          <img src="https://via.placeholder.com/300x200" alt="Karya 1" class="rounded mb-3">
+          <h4 class="font-semibold">Poster Kampanye Sosial</h4>
+        </div>
+        <div class="bg-white p-4 shadow-md rounded hover:scale-105 transition-transform duration-300">
+          <img src="https://via.placeholder.com/300x200" alt="Karya 2" class="rounded mb-3">
+          <h4 class="font-semibold">Branding Produk Minuman</h4>
+        </div>
+        <div class="bg-white p-4 shadow-md rounded hover:scale-105 transition-transform duration-300">
+          <img src="https://via.placeholder.com/300x200" alt="Karya 3" class="rounded mb-3">
+          <h4 class="font-semibold">Desain Feed Instagram</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="py-16 px-4 max-w-4xl mx-auto fade-in" style="animation-delay: 1.5s;">
+    <h3 class="text-3xl font-bold mb-6">Kontak Saya</h3>
+    <p class="mb-4 text-gray-700">Tertarik bekerja sama? Hubungi saya melalui:</p>
+    <ul class="text-gray-700 space-y-2 text-lg">
+      <li>Email: <a href="mailto:nabilgrafis@email.com" class="text-blue-600">nabilgrafis@email.com</a></li>
+      <li>Instagram: <a href="https://instagram.com/nabilgrafis" target="_blank" class="text-blue-600">@nabilgrafis</a></li>
+      <li>WhatsApp: <a href="https://wa.me/628123456789" class="text-blue-600">+62 812 3456 789</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow-inner text-center p-4 mt-10 animate__animated animate__fadeInUp">
+    <p class="text-sm text-gray-500">© 2025 NABILKULBET Design. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
